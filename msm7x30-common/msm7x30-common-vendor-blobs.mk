@@ -18,6 +18,8 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/huawei/msm7x30-common/proprietary/system/bin/rmt_storage:system/bin/rmt_storage \
+	vendor/huawei/msm7x30-common/proprietary/system/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
+	vendor/huawei/msm7x30-common/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
 	vendor/huawei/msm7x30-common/proprietary/recovery/root/sbin/rmt_storage:recovery/root/sbin/rmt_storage \
 	vendor/huawei/msm7x30-common/proprietary/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/huawei/msm7x30-common/proprietary/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
